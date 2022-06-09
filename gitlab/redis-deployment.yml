@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:3.2.4
+        image: redis:6.0.16
         ports:
         - name: redis
           containerPort: 6379
